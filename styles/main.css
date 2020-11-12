@@ -1,0 +1,102 @@
+
+/* styling header */
+header {
+    display: flex;
+    background-color: darkblue;
+    color: cornsilk;
+    text-align: center;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+/* controlling size of the logo */
+header img {
+    height: 10em;
+  
+}
+/* flexxing the two elements: .container--left and .container--right */
+.content {
+    display: flex;
+}
+
+/* styling Salty Set */
+.fishList{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    
+}
+/* styling quotes */
+.quotes {
+
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkblue;
+    color: cornsilk;
+}
+
+/* styling Harvest Locations */
+.harvestLocations {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: cadetblue;
+    color: cornsilk;
+}
+
+/* styling Tank Tips (right container */
+.tankTips {
+
+    margin: 0 10px;
+    background-color: darkcyan;
+    color:cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1700px;
+    font-size: larger;
+    padding: 5px;
+    
+    
+}
+/* This is sizing my containers though I have no idea why */
+.container {
+    border: 1px solid green;
+}
+/* sizing left container and styling the contaiiner itself */
+.container--left {
+    flex: 3;
+    margin-right: 25px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    
+}
+/* sizing the right container to be smaller than right */
+.container--right{
+    flex: 1.5;
+
+}
+/* centering "Tank Tips" */
+.tip h3 {
+    text-align: center;
+}
+/* This seems to be controlling the size of my images though I have no idea why */
+li {
+    padding-bottom: 10px;
+}
+
+/* Controlling size of fish pix */
+.fish__image {
+    height: 15em;
+}
+.location__image {
+    height: 15em;
+}
+
+
+.container--left article {
+    margin-bottom: 25px;
+}
