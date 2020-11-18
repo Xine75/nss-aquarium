@@ -48,7 +48,7 @@ header img {
 }
 
 /* styling Tank Tips (right container */
-.tankTips {
+tipText {
 
     margin: 0 10px;
     background-color: darkcyan;
@@ -72,11 +72,22 @@ header img {
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: cornflowerblue;
+    color: cornsilk;
     
 }
 /* sizing the right container to be smaller than right */
 .container--right{
     flex: 1.5;
+    margin: 0 10px;
+    background-color: darkcyan;
+    color:cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1700px;
+    font-size: larger;
+    padding: 5px;
 
 }
 /* centering "Tank Tips" */
