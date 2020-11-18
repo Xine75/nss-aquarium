@@ -9,3 +9,6 @@ QuoteList ()
 
 import { LocationList } from "./locations/LocationList.js"
 LocationList ()
+
+import { TipList } from "./tips/TipList.js"
+TipList ()
